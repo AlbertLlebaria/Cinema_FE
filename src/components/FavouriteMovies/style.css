@@ -1,0 +1,12 @@
+.filters_button{
+    background: #DD6031aa;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: #DD6031;
+}
+.movie_searcher__filters_content{
+    margin: 8px 0;
+}

@@ -1,0 +1,41 @@
+.nav{
+    height: 90px;
+    background-color: #EEF0F2;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav__link{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+.nav__link_element{
+    display: inline-block;
+    color: #000;
+    text-decoration: none!important;
+}
+
+.nav__left{
+    float: right;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__link_element::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(221, 96, 49);;   
+    transition: width .3s;
+}
+
+.nav__link_element:hover::after {
+    width: 100%;
+    transition: width .3s;
+}

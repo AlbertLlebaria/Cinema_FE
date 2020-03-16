@@ -1,0 +1,29 @@
+.icon_button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    background: transparent;
+    background-position: center;
+    transition: background-color 0.8s;
+}
+
+.icon_button:active {
+    background-color: #dd603155;
+    background-size: 100%;
+    transition: background-color 0s;
+}
+
+.icon_button--disabled .fas{
+    color: grey!important; 
+
+}
+
+
+.fas {
+    font-size: 30px;
+    color: #dd6031; 
+}
+.small{
+    font-size:13px!important;
+}

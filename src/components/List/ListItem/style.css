@@ -1,0 +1,29 @@
+.list__item{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+}
+
+.list__item:hover{
+    background-color: #EFF0F2;
+}
+
+.list__item_info{
+    margin: 5px;
+}
+.list__item_info--no_img{
+    margin-left: 20px;
+}
+
+.list__image{
+    width: 100px;
+    height: 125px;
+
+}
+
+.list__item--d_left{
+    justify-content: left;
+}

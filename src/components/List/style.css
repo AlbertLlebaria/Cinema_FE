@@ -1,0 +1,60 @@
+.list__container{
+    padding: 7.;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_content{
+
+    list-style: none;
+    overflow: scroll;
+
+    padding: 15px;
+    margin: 10px;
+    max-height: 550px;
+    width: 320px;
+}
+
+.list__filter_input{
+    width: 80%;
+    margin: 15px;
+    padding: 5px;
+    text-align: center; 
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.list__filter_input:focus{
+    border-color: #dd6031;
+    color: #dd6031;
+    font-weight: bolder;
+
+}
+
+.list_commands {
+    margin:10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.list_commands span{
+    margin-top: -6px;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
