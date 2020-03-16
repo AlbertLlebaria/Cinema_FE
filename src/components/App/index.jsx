@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect
 } from "react-router-dom";
 
 import Header from "../Header"
@@ -24,6 +25,7 @@ function App(props) {
         <Switch>
           <Route exact path="/" component={MovieSearcher} />
           <Route path="/favourite" component={FavouriteMovies} />
+          <Route render={() => <Redirect to="/" />} />
         </Switch>
       </div>
     </Router>

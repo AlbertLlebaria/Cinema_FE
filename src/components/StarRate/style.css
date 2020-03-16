@@ -5,3 +5,6 @@
 .checked {
     color: #DD6031;
 }
+.fa-star--custom{
+    cursor: pointer;
+}
